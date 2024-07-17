@@ -1,0 +1,11 @@
+pyperclip
+pystyle
+colorama
+phonenumbers
+requests
+folium
+pyfiglet
+bs4
+faker
+pyautogui
+pandas

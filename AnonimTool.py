@@ -658,13 +658,13 @@ def SearchV2Func():
 
     def main():
         phone = input(Fore.LIGHTCYAN_EX + "Please enter info to search --->  ")
-        phone = input(Fore.LIGHTCYAN_EX + "Please enter your leak osint api --->  ")
+        token_inp = input(Fore.LIGHTCYAN_EX + "Please enter your leak osint api --->  ")
         print(Fore.LIGHTCYAN_EX + "╔════════════════════════")
 
         response = requests.post(
             "https://server.leakosint.com/",
             json={
-                "token": "7481268774:UxKCvtXZ",
+                "token": token_inp,
                 "request": phone,
                 "limit": 1100,
                 "lang": "ru"
